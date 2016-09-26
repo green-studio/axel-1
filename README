@@ -8,7 +8,7 @@
 线程之后不一定马上可以enable,fd变成有用值并且下载,每个线程下载完自己的任务之后
 就会退出,
 
-
+axel_N.txt为几个debug输出结果.
 
 axel ftp://ftp.nl.kernel.org/pub/linux/kernel/v2.2/linux-2.2.20.tar.bz2
 axel ftp://ftp.{nl,be,de}.kernel.org/pub/linux/kernel/v2.2/linux-2.2.20.tar.bz2
