@@ -1,3 +1,15 @@
+总体说一下:
+多线程下载器axel,核心是一个select模型,在axel_do函数里面.
+其包含解析url发出http或者ftp请求读取服务器文件,写入本地文件等等操作,
+支持断点续下,一次没有下载完的文件,可以接着继续下载,其实质是写入一个.st结尾
+的文件,记录当前下载的具体信息,包含已下载字节数,连接数等等信息.
+多线程下载时,每个线程分配的任务大致均等,断点续下时,也会读取每个连接的下载信息,
+之后,接着继续下载,开启线程之后初始化相关的线程连接信息,包括conn的fd,但是在创建
+线程之后不一定马上可以enable,fd变成有用值并且下载,每个线程下载完自己的任务之后
+就会退出,
+
+
+
 axel ftp://ftp.nl.kernel.org/pub/linux/kernel/v2.2/linux-2.2.20.tar.bz2
 axel ftp://ftp.{nl,be,de}.kernel.org/pub/linux/kernel/v2.2/linux-2.2.20.tar.bz2
 git init
@@ -5,3 +17,4 @@ git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:lijinya/axel.git
 git push -u origin master
+
