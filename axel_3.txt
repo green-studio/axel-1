@@ -1,0 +1,978 @@
+./axel -n 4 'http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz' -S 5
+Initializing download: http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+--------axel new --------
+Doing search...
+Testing speeds, this can take a while...
+1 usable servers found, will use these URLs:
+URL                                                                    Speed
+http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/ec  1131
+
+malloc size : 7416
+buffer OK...
+count = 1
+----start print url list
+url[0] : http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+----end print url list
+File size: 179687827 bytes
+fn : (null)
+***********start conn****************
+conn->proto : HTTP
+conn->proxy : 0
+conn->host : 101.110.118.63
+conn->dir : /eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/
+conn->file : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+conn->user : 
+conn->pass : 
+conn->http->host : 101.110.118.63
+conn->http->auth : 
+conn->http->request : HTTP/1.0 206 Partial Content
+conn->http->headers: HTTP/1.0 206 Partial Content
+Date: Sun, 25 Sep 2016 09:46:17 GMT
+Content-Type: application/octet-stream
+Content-Length: 179687826
+Last-Modified: Tue, 24 Feb 2015 08:00:00 GMT
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Cache-Control: max-age=315360000
+Content-Range: bytes 1-179687826/179687827
+Connection: close
+
+conn->http->firstbyte : 1
+conn->http->lastbyte : 0
+conn->http->status : 206
+conn->http->fd : -1
+***********end conn****************
+--------axel open --------
+Opening output file eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+--------axel start --------
+Starting download
+***********start axel****************
+axel OK!
+axel->filename : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->url : http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->start_byte : 0
+axel->bytes_done : 0
+axel->size : 179687827
+axel->outfd : 4
+***********start conn****************
+conn->proto : HTTP
+conn->proxy : 0
+conn->host : 101.110.118.63
+conn->dir : /eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/
+conn->file : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+conn->user : 
+conn->pass : 
+conn->http->host : 101.110.118.63
+conn->http->auth : 
+conn->http->request : HTTP/1.0 206 Partial Content
+conn->http->headers: HTTP/1.0 206 Partial Content
+Date: Sun, 25 Sep 2016 09:46:17 GMT
+Content-Type: application/octet-stream
+Content-Length: 179687826
+Last-Modified: Tue, 24 Feb 2015 08:00:00 GMT
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Cache-Control: max-age=315360000
+Content-Range: bytes 1-179687826/179687827
+Connection: close
+
+conn->http->firstbyte : 1
+conn->http->lastbyte : 0
+conn->http->status : 206
+conn->http->fd : -1
+***********end conn****************
+***********start conn****************
+conn->proto : HTTP
+conn->proxy : 0
+conn->host : eclipse.stu.edu.tw
+conn->dir : /technology/epp/downloads/release/luna/SR2/
+conn->file : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+conn->user : 
+conn->pass : 
+conn->http->host : eclipse.stu.edu.tw
+conn->http->auth : 
+conn->http->request : 
+conn->http->headers: 
+conn->http->firstbyte : 0
+conn->http->lastbyte : 0
+conn->http->status : 0
+conn->http->fd : 0
+***********end conn****************
+***********start conn****************
+conn->proto : HTTP
+conn->proxy : 0
+conn->host : eclipse.stu.edu.tw
+conn->dir : /technology/epp/downloads/release/luna/SR2/
+conn->file : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+conn->user : 
+conn->pass : 
+conn->http->host : eclipse.stu.edu.tw
+conn->http->auth : 
+conn->http->request : 
+conn->http->headers: 
+conn->http->firstbyte : 0
+conn->http->lastbyte : 0
+conn->http->status : 0
+conn->http->fd : 0
+***********end conn****************
+***********start conn****************
+conn->proto : HTTP
+conn->proxy : 0
+conn->host : eclipse.stu.edu.tw
+conn->dir : /technology/epp/downloads/release/luna/SR2/
+conn->file : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+conn->user : 
+conn->pass : 
+conn->http->host : eclipse.stu.edu.tw
+conn->http->auth : 
+conn->http->request : 
+conn->http->headers: 
+conn->http->firstbyte : 0
+conn->http->lastbyte : 0
+conn->http->status : 0
+conn->http->fd : 0
+***********end conn****************
+***********end axel****************
+axel->conn[0].fd : -1  enable : 0
+axel->conn[1].fd : 0  enable : 0
+axel->conn[2].fd : 0  enable : 0
+axel->conn[3].fd : 0  enable : 0
+axel->conn[0].fd : -1  enable : 0
+axel->conn[1].fd : 0  enable : 0
+axel->conn[2].fd : 0  enable : 0
+axel->conn[3].fd : 0  enable : 0
+axel->conn[0].fd : 6  enable : 0
+axel->conn[1].fd : 0  enable : 0
+axel->conn[2].fd : 0  enable : 0
+axel->conn[3].fd : 0  enable : 0
+axel->conn[0].fd : 6  enable : 0
+axel->conn[1].fd : 0  enable : 0
+axel->conn[2].fd : 0  enable : 0
+axel->conn[3].fd : 0  enable : 0
+axel->conn[0].fd : 6  enable : 0
+axel->conn[1].fd : 0  enable : 0
+axel->conn[2].fd : 0  enable : 0
+axel->conn[3].fd : 0  enable : 0
+axel->conn[0].fd : 6  enable : 0
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+
+[  0%]  .....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+ ...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+.... .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+ ..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 0
+axel->conn[2].fd : 7  enable : 0
+axel->conn[3].fd : 8  enable : 0
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+....... ......axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+....  [  48.3KB/s]
+[  0%]  ......axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.... ...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ ..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+... ..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+  [  64.2KB/s]
+[  0%]  .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.. .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.. ...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.. .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+... ..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+  [  84.7KB/s]
+[  0%]  .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+... ..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.  [  91.5KB/s]
+[  0%]  ....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. ....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. ...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..  [  98.9KB/s]
+[  0%]  ...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.. ...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+...  [ 113.6KB/s]
+[  0%]  ..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.... .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.... .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. ....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.  [ 117.5KB/s]
+[  0%]  ....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.. ...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. ....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+. ....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+....  [ 123.7KB/s]
+[  0%]  .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.... .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+...axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+..axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+ .....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+.axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+....axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+  [ 127.8KB/s]
+[  0%]  .axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+axel->conn[0].fd : 6  enable : 1
+axel->conn[1].fd : 5  enable : 1
+axel->conn[2].fd : 7  enable : 1
+axel->conn[3].fd : 8  enable : 1
+^X^C
+
+Downloaded 451.6 kilobytes in 3 seconds. (124.27 KB/s)

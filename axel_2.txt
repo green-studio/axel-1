@@ -1,0 +1,183 @@
+./axel -n 20 'http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz'
+Initializing download: http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+
+------conf---start-----
+filename : default
+http_proxy : 
+no_proxy : 
+strip_cgi_parameters : 1
+save_state_interval : 10
+connection_timeout : 60
+reconnection_delay : 20
+num_connections : 20
+buffer_size : 5120
+max_speed : 0
+verbose : 1
+search_timeout : 10
+search_threads : 3
+search_amount : 15
+search_top : 3
+------conf---end-----
+
+malloc size : 7416
+buffer OK...
+***********start axel****************
+axel OK!
+axel->filename : 
+axel->url : http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->start_byte : 0
+axel->bytes_done : 0
+axel->size : 0
+axel->outfd : 0
+***********end axel****************
+File size: 179687827 bytes
+***********start conn****************
+conn->proto : HTTP
+conn->proxy : 0
+conn->host : eclipse.stu.edu.tw
+conn->dir : /technology/epp/downloads/release/luna/SR2/
+conn->file : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+conn->user : 
+conn->pass : 
+conn->http->host : eclipse.stu.edu.tw
+conn->http->auth : 
+conn->http->request : HTTP/1.1 206 Partial Content
+conn->http->headers: HTTP/1.1 206 Partial Content
+Server: nginx
+Date: Sat, 24 Sep 2016 18:12:23 GMT
+Content-Type: application/octet-stream
+Content-Length: 179687826
+Last-Modified: Tue, 24 Feb 2015 08:00:00 GMT
+Connection: close
+ETag: "54ec2f80-ab5d193"
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Cache-Control: max-age=315360000
+Content-Range: bytes 1-179687826/179687827
+
+conn->http->firstbyte : 1
+conn->http->lastbyte : 0
+conn->http->status : 206
+conn->http->fd : -1
+***********end conn****************
+***********start axel****************
+axel OK!
+axel->filename : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->url : http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->start_byte : 0
+axel->bytes_done : 0
+axel->size : 179687827
+axel->outfd : 0
+***********end axel****************
+Opening output file eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+State file found: 1766606 bytes downloaded, 177921221 to go.
+Starting download
+
+        ,,,,,,,,,, ,,,,,,,,,, ,,,,,..... .......... ..........  [  24.9KB/s]
+[  0%]  .......... .......... .......... .......... ..........  [  59.2KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [  74.8KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [  92.2KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [ 112.1KB/s]
+[  1%]  .......... .......... .......... .......^C^X
+
+Downloaded 261.8 kilobytes in 2 seconds. (120.67 KB/s)
+
+
+
+
+./axel -n 20 'http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz'
+Initializing download: http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+
+------conf---start-----
+filename : default
+http_proxy : 
+no_proxy : 
+strip_cgi_parameters : 1
+save_state_interval : 10
+connection_timeout : 60
+reconnection_delay : 20
+num_connections : 20
+buffer_size : 5120
+max_speed : 0
+verbose : 1
+search_timeout : 10
+search_threads : 3
+search_amount : 15
+search_top : 3
+------conf---end-----
+
+malloc size : 7416
+buffer OK...
+***********start axel****************
+axel OK!
+axel->filename : 
+axel->url : http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->start_byte : 0
+axel->bytes_done : 0
+axel->size : 0
+axel->outfd : 0
+***********end axel****************
+File size: 179687827 bytes
+***********start conn****************
+conn->proto : HTTP
+conn->proxy : 0
+conn->host : eclipse.stu.edu.tw
+conn->dir : /technology/epp/downloads/release/luna/SR2/
+conn->file : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+conn->user : 
+conn->pass : 
+conn->http->host : eclipse.stu.edu.tw
+conn->http->auth : 
+conn->http->request : HTTP/1.1 206 Partial Content
+conn->http->headers: HTTP/1.1 206 Partial Content
+Server: nginx
+Date: Sat, 24 Sep 2016 18:15:15 GMT
+Content-Type: application/octet-stream
+Content-Length: 179687826
+Last-Modified: Tue, 24 Feb 2015 08:00:00 GMT
+Connection: close
+ETag: "54ec2f80-ab5d193"
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Cache-Control: max-age=315360000
+Content-Range: bytes 1-179687826/179687827
+
+conn->http->firstbyte : 1
+conn->http->lastbyte : 0
+conn->http->status : 206
+conn->http->fd : -1
+***********end conn****************
+***********start axel****************
+axel OK!
+axel->filename : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->url : http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->start_byte : 0
+axel->bytes_done : 0
+axel->size : 179687827
+axel->outfd : 0
+***********end axel****************
+Opening output file eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+State file found: 2034730 bytes downloaded, 177653097 to go.
+***********start axel****************
+axel OK!
+axel->filename : eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->url : http://eclipse.stu.edu.tw/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz
+axel->start_byte : 0
+axel->bytes_done : 2034730
+axel->size : 179687827
+axel->outfd : 3
+***********end axel****************
+Starting download
+
+        ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,... ..........  [  20.1KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [  58.8KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [  77.3KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [  91.6KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [  96.6KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [ 109.4KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [ 121.8KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [ 126.9KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [ 133.9KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [ 149.7KB/s]
+[  1%]  .......... .......... .......... .......... ..........  [ 160.3KB/s]
+[  1%]  ....^C
+
+Downloaded 517.4 kilobytes in 3 seconds. (156.27 KB/s)
